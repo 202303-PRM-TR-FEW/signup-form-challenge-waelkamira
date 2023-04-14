@@ -1,0 +1,193 @@
+body {
+    background-image: url(images/bg-intro-desktop.png);
+
+}
+
+.grid-container {
+    background-color: hsl(0, 100%, 74%);
+    background-image: url(images/bg-intro-mobile.png);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    width: 320px;
+    
+}
+
+#paragraph{
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+#upButton {
+    background-color: #5d54a3;
+    height: 80px;
+    min-width: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 16px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 5px rgba(91, 91, 91, 0.299);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#form {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    box-shadow: 0px 5px rgba(91, 91, 91, 0.299);
+}
+
+.child {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    min-width: 250px;
+    height: 50px;
+    border-color: rgba(0, 0, 0, 0.124);
+}
+
+#lastPara{
+    color: gray;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+#Terms{
+    color: red;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+#submit {
+background-color: hsl(154, 59%, 51%);
+color: white;
+min-width: 260px;
+height: 60px;
+border-radius: 5px;
+font-size: 16px ;
+border-color:rgba(240, 248, 255, 0);
+font-family: 'Poppins', sans-serif;
+}
+
+@media (min-width:500px){
+    body {
+        background-color: hsl(0, 100%, 74%);
+        background-image: url(images/bg-intro-desktop.png);
+        padding-left: 390px;
+        padding-top: 131.5px ;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+    
+    .grid-container {
+        background-color: hsl(0, 100%, 74%);
+        background-image: url(images/bg-intro-desktop.png);
+        padding: 20px;
+        text-align: center;
+        color: white;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+        grid-auto-flow: row;
+        height: 500px;
+        width: 1050px;
+        gap: 10px;
+        
+        
+    }
+    
+    .child1 {
+    
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    }
+
+    .child2 {
+        
+        width: 500px;
+        height: 500px;
+        }
+    
+    #paragraph{
+        margin-bottom: 50px;
+        align-self: self-end;
+        border: #5d54a3;
+        line-height: 30px;
+        
+    }
+
+    h1{
+        border-color: aquamarine;
+        margin-top: 100px;
+        font-size: 50px;
+    }
+    
+    #upButton {
+        background-color: #5d54a3;
+        width: 500px;
+        height: 60px;
+        font-size: 16px;
+        border-radius: 10px;
+        color: white;
+        box-shadow: 0px 5px rgba(91, 91, 91, 0.299);
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+    }
+    
+    #form {
+        background-color: white;
+        border-radius: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        box-shadow: 0px 5px rgba(91, 91, 91, 0.299);
+    }
+    
+    .child {
+        margin-bottom: 10px;
+        border-radius: 5px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 425;
+        font-size: 16px;
+        min-width: 400px;
+        height: 40px;
+        border-color: rgba(0, 0, 0, 0.124);
+        
+    }
+    
+    
+    #lastPara{
+        color: gray;
+        border-radius: 5px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+    #Terms{
+        color: red;
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+    #submit {
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    min-width: 410px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 16px ;
+    border-color:rgba(240, 248, 255, 0);
+    }
+}
